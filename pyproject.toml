@@ -1,0 +1,23 @@
+[project]
+name = "repo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "diffusers==0.29.0",
+    "einops==0.7.0",
+    "gradio==3.50.0",
+    "huggingface-hub[cli]>=0.35.3",
+    "imageio==2.31.1",
+    "imageio-ffmpeg==0.5.1",
+    "librosa==0.10.2.post1",
+    "omegaconf==2.3.0",
+    "opencv-python>=4.11.0.86",
+    "torch==2.2.1",
+    "torchaudio==2.2.1",
+    "torchvision==0.17.1",
+    "tqdm==4.65.2",
+    "transformers==4.43.2",
+]
